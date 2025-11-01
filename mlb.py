@@ -111,7 +111,6 @@ def main():
     print("\n=== MLB Salary Summary (2021–2025) ===")
     print(summary)
 
-    # 畫折線圖
     plt.figure(figsize=(10,6))
     plt.plot(summary["Year"], summary["Mean"], marker="o", label="Mean")
     plt.plot(summary["Year"], summary["Median"], marker="o", label="Median")
